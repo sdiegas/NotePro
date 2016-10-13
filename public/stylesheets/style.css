@@ -1,8 +1,30 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 10px;
+  font: 14px Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+/* Splitter: Der kann das Layout in LEFT und RIGHT aufteilen.*/
+.splitter > .splitter-left {
+
+}
+
+.splitter > .splitter-right {
+
+}
+
+/* Haupt-Aktionen, wie zum Beispiel das Erstellen neuer Notizen (muss prominent platziert sein)*/
+.primary-actions > div {
+    display: inline;
+}
+
+/* Die Navigations-Ebene */
+.navigation > div {
+    display: inline;
+}
+.navigation-tabs > button {
+    margin: 0;
 }
